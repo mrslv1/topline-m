@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <!-- 根路由出口 -->
-    <van-button type="warning">登录按钮</van-button>
-    <van-button type="danger">危险按钮</van-button>
-    <router-view></router-view>
+
+    <router-view />
   </div>
 </template>
 
@@ -14,6 +13,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="less">
 
 </style>
